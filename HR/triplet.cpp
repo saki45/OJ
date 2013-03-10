@@ -82,18 +82,10 @@ int main(){
 	std::sort(dataTmp, dataTmp+N);
 
 	int count = 1, cur = dataTmp[0];
-	for(int i=1; i<N; i++){
-		if(dataTmp[i] != cur){
-			count ++;
-			cur = dataTmp[i];
-		}
-	}
 
 	map<unsigned int, unsigned int> mp;
 	map<unsigned int, unsigned int>::iterator it;
 
-	count = 1;
-	cur = dataTmp[0];
 	mp[cur] = 1;
 
 	for(int i=1; i<N; i++){
