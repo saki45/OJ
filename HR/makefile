@@ -1,4 +1,4 @@
-allExec = arithProg bBoard triplet coins
+allExec = arithProg bBoard triplet coins require
 
 all:	$(allExec)
 
@@ -10,6 +10,8 @@ triplet: triplet.o
 	g++ -o triplet triplet.o
 coins: coins.o
 	g++ -o coins coins.o
+require: require.o
+	g++ -o require require.o
 
 clean:
 	rm $(allExec)
