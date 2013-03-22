@@ -101,7 +101,7 @@ int main(){
 			curLoop = curNum % DIFFMAP_SIZE;
 			getDigitSum(curNum, &sum1, &sum2, sumMap1, sumMap2);
 			if(primeMap[sum1] && primeMap[sum2]){
-				printf("%Ld ", curNum);
+				//printf("%Ld ", curNum);
 				count ++;
 			}
 
@@ -111,7 +111,7 @@ int main(){
 				sum1 += diffMap1[curLoop];
 				sum2 += diffMap2[curLoop];
 				if(primeMap[sum1] && primeMap[sum2]){
-					printf("%Ld ", curNum);
+					//printf("%Ld ", curNum);
 					count ++;
 				}
 				curNum++;

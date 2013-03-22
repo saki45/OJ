@@ -1,4 +1,4 @@
-allExec = arithProg bBoard triplet coins lucky2
+allExec = arithProg bBoard triplet coins 
 
 all:	$(allExec)
 
@@ -12,8 +12,6 @@ coins: coins.o
 	g++ -o coins coins.o
 require: require.o
 	g++ -o require require.o
-lucky2: lucky2.o
-	g++ -o lucky2 lucky2.o
 
 clean:
 	rm $(allExec)

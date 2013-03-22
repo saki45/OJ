@@ -68,8 +68,14 @@ void computeG(long long ***g, long long ***h,  int **st, int **ed){
 
 long long getH(long long ***g, long long ***h, int **st, int **ed, int i, int A, int B, int *primeMap){
 
-	//printf("st %d %d %d %d\n", i, A, B, h[i][A][B]);
+	//printf("st i:%d A:%d B:%d h:%Ld\n", i, A, B, h[i][A][B]);
 	if(h[i][A][B] > 0){
+		return h[i][A][B];
+	}
+
+	if(i == 0){
+		if(primeMap[A] && primeMap[B])
+			h[i][A][B] = 1;
 		return h[i][A][B];
 	}
 
@@ -80,6 +86,7 @@ long long getH(long long ***g, long long ***h, int **st, int **ed, int i, int A,
 			for(int bb=st[i][aa]; bb<=bMax && bb<=ed[i][aa] && bb<=aa*aa; bb++){
 				//printf("%d %d %d:%d %d\n", i, aa, bb, st[i][aa], ed[i][aa]);
 				if(primeMap[B+bb]){
+					//printf("%d %d %d:%d %d\n", i, aa, bb, st[i][aa], ed[i][aa]);
 					h[i][A][B] += g[i][aa][bb];
 				}
 			}
@@ -93,17 +100,35 @@ long long getNumber(string str, long long ***g, long long ***h, int **st, int **
 	long long result = 0L;
 	int N = str.length()-1;
 	int A=0, B=0;
-	for(int i=N; i>0; i--){
+	for(int i=N; i>=0; i--){
 		int num = int(str[N-i] - '0');
 		int t1 = i;
 		for(int j=0; j<num; j++){
-			result += getH(g, h, st, ed, t1, A+j, B+j*j, primeMap);
+			long long res = getH(g, h, st, ed, t1, A+j, B+j*j, primeMap);
+			//result += getH(g, h, st, ed, t1, A+j, B+j*j, primeMap);
+			//printf("ti:%d num:%d A:%d B:%d j:%d res:%Ld\n", t1, num, A, B, j, res);
+			result += res;
 		}
 		A += num;
 		B += num*num;
 	}
+	if(primeMap[A] && primeMap[B])
+		result ++;
+	//printf("%Ld\n", result);
 	return result;
 }
+
+
+long long isLucky(string a, int *primeMap){
+	int A=0, B=0, N = a.length(), digit;
+	for(int i=0; i<N; i++){
+		digit = int(a[i]-'0');
+		A += digit;
+		B += digit*digit;
+	}
+	return primeMap[A]*primeMap[B];
+}
+
 
 int main(){
 	int T;
@@ -134,17 +159,10 @@ int main(){
 	}
 	computeG(g, h, st, ed);
 
-	/*
-	for(int i=1; i<4; i++){
-		for(int j=0; j<9*i+1; j++){
-			printf("%d %d: %d %d\n", i, j, st[i][j], ed[i][j]);
-		}
-	}*/
-
 	string a, b;
 	char buf[100];
 	char *input = buf, *token;
-	long long resultA, resultB;
+	long long resultA, resultB, isLuckyA;
 		
 	while(T>0){
 		fgets(buf, sizeof(buf), stdin);
@@ -157,8 +175,9 @@ int main(){
 
 		resultA = getNumber(a, g, h, st, ed, primeMap);
 		resultB = getNumber(b, g, h, st, ed, primeMap);
+		isLuckyA = isLucky(a, primeMap);
 
-		printf("%Ld\n", resultB-resultA);
+		printf("%Ld\n", resultB-resultA+isLuckyA);
 		T--;
 	}
 
