@@ -1,0 +1,327 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+F	2109.c	/^	int F;$/;"	m	struct:record	file:
+J	2109.c	/^	int J;$/;"	m	struct:record	file:
+MAX	2136.c	3;"	d	file:
+MAX	2229.c	3;"	d	file:
+MAXDIGIT	1486.c	5;"	d	file:
+MAXN	1486.c	4;"	d	file:
+MAXNUM	1558.c	5;"	d	file:
+MAXPRIME	1133.c	4;"	d	file:
+MAXSIZE	1738.c	4;"	d	file:
+MIN	1558.c	4;"	d	file:
+MIN	1738.c	5;"	d	file:
+PI	1049.c	3;"	d	file:
+SIZE	1353.c	4;"	d	file:
+Trie	2876.c	/^struct Trie{$/;"	s	file:
+Z2876	Z2876.java	/^class Z2876{$/;"	c
+allExec	makefile	/^allExec  = 2812 1240 1383 2478 2886 2947 2932 1115 1251 1241 1295 1151 1763 2001 2857 2850 1188 2736 1949 1205 2109 2095 2060 1392 1315$/;"	m
+allExec2	makefile	/^allExec2 = 2727 2722 2724 1109 2744 2818 2835 2723 2829 2420 2201 2417 2876 2772 2476 2807 2176 2388 2830 1760 2679 2136 2104 1698 2840$/;"	m
+allExec3	makefile	/^allExec3 = 1049 1028 1026 1307 1312 1334 1337 1342 1349 1350 1353 1354 1362 1365 1382 1352 1403 1408 1414 1713 1716 1745 2186 1100 1095$/;"	m
+allExec4	makefile	/^allExec4 = 1133 1425 1486 2358 1113 1601 1117 1136 1577 1284 1278 1314 2172 1184 1543 2067 2229 2256 1503 2645 1558 2405 2376 2397 2433$/;"	m
+allExec5	makefile	/^allExec5 = 1027 1738 1008 1505 2488 2511 1520 1524 1563 1883 1792 2321 2207 2480 2481 2482 2514 1598 1720 1764 2520 2548 2100 2554 2659$/;"	m
+allExec6	makefile	/^allExec6 = 2773 2781 2795 2965 2970 1111 1717 2059 1657 1797 1712$/;"	m
+array	1188.cpp	/^	int *array;$/;"	m	class:binaryIndexedTree	file:
+bSearch	1312.c	/^int bSearch(int *primeList, int count, int key){$/;"	f
+bSearch	2136.c	/^int bSearch(int aux[], int tmp, int curLongest){$/;"	f
+bSearch	2420.c	/^int bSearch(int arr[], int size, int n){$/;"	f
+bigNumber	1486.c	/^struct bigNumber{$/;"	s	file:
+binaryIndexedTree	1188.cpp	/^	binaryIndexedTree(int N):maxSize(N){$/;"	f	class:binaryIndexedTree
+binaryIndexedTree	1188.cpp	/^class binaryIndexedTree{$/;"	c	file:
+boardToStatus	1505.cpp	/^int boardToStatus(int board[][8]){$/;"	f
+c	1486.c	/^	int c;$/;"	m	struct:bigNumber	file:
+c	2100.c	/^	int r, c, rt;$/;"	m	struct:nb	file:
+canDoLM	2321.c	/^int canDoLM(double spd, double w, double s){$/;"	f
+canDoQB	2321.c	/^int canDoQB(double spd, double w, double s){$/;"	f
+canDoWR	2321.c	/^int canDoWR(double spd, double w, double s){$/;"	f
+ch	1117.cpp	/^	char ch;$/;"	m	struct:nodes	file:
+checkmate	1598.c	/^int checkmate(int board[][10], int bkr, int bkc){$/;"	f
+child	2876.c	/^	struct Trie *child[10];$/;"	m	struct:Trie	typeref:struct:Trie::Trie	file:
+clear	1188.cpp	/^	void clear(){$/;"	f	class:binaryIndexedTree
+clear	2835.c	/^void clear(int hash[], int rSum[], int cSum[], int *d1Sum, int *d2Sum){$/;"	f
+clearBigNumber	1486.c	/^void clearBigNumber(struct bigNumber *bn){$/;"	f
+clearBuf	2876.c	/^void clearBuf(struct Trie *buf, int *nodeNum){$/;"	f
+cmd	2724.cpp	/^	char cmd[100];$/;"	m	struct:record	file:
+cmp	1403.c	/^int cmp(const void *p1, const void *p2){$/;"	f
+cmpName	2727.c	/^int cmpName(const void *p1, const void *p2){$/;"	f
+cmpPrice	2727.c	/^int cmpPrice(const void *p1, const void *p2){$/;"	f
+cmpYear	2727.c	/^int cmpYear(const void *p1, const void *p2){$/;"	f
+comp	2100.c	/^int comp(const void *a, const void *b){$/;"	f
+comp	2207.c	/^int comp(const void *a, const void *b){$/;"	f
+comp	2481.c	/^int comp(const void *a, const void *b){$/;"	f
+comp	2488.c	/^int comp(const void *a, const void *b){$/;"	f
+comp	2511.c	/^int comp(const void *p1, const void *p2){$/;"	f
+comp2	2511.c	/^int comp2(const void *p1, const void *p2){$/;"	f
+compare	1543.c	/^int compare(const void *p1, const void *p2){$/;"	f
+compare	2109.c	/^int compare(const void *p1, const void *p2){$/;"	f
+compare	2397.c	/^int compare(const void *a, const void *b){$/;"	f
+compareSameRank	1111.c	/^int compareSameRank(int bCardsSum[], int wCardsSum[], int rank){$/;"	f
+convert	1027.c	/^void convert(int a[], int len, char buf[]){$/;"	f
+copyBigNumber	1486.c	/^void copyBigNumber(struct bigNumber *src, struct bigNumber *dst){$/;"	f
+count	1117.cpp	/^	int count, level, idx;$/;"	m	struct:nodes	file:
+d	2100.c	/^int d[4][2] = {-1, 0, 1, 0, 0, -1, 0, 1};$/;"	v
+dfs	1008.c	/^int dfs(int cards[][4], int num[], int board[], int N, int count, int pos){$/;"	f
+dfs	1117.cpp	/^void dfs(nodes node[], int idx, int level){$/;"	f
+dfs	1486.c	/^void dfs(struct node nodes[], int n){$/;"	f
+dfs	2100.c	/^int dfs(int board[][7], int rt[][7], int nrt[], int N, int M, int r, int c){$/;"	f
+dfs_wrapper	2100.c	/^int dfs_wrapper(int board[][7], int rt[][7], int nrt[], int N, int M){$/;"	f
+displayResult	2947.c	/^void displayResult(int res){$/;"	f
+eps	1049.c	4;"	d	file:
+eps	1601.c	6;"	d	file:
+excuse	1315.c	/^struct excuse{$/;"	s	file:
+findNext	2947.c	/^char findNext(char *buf, int *p){$/;"	f
+findSum	2358.c	/^int findSum(int N, int facTable[], int n){$/;"	f
+gcd	1337.c	/^int gcd(int a, int b){$/;"	f
+gcd	1601.c	/^ int gcd(int i, int j){$/;"	f
+generateOrders	2207.c	/^void generateOrders(int orders[][5], char str[][5]){$/;"	f
+getFirstSum	1115.c	/^int getFirstSum(char *buf){$/;"	f
+getGCD	1797.c	/^int getGCD(int a, int b){$/;"	f
+getHighestDigit	2722.c	/^int getHighestDigit(int N){$/;"	f
+getInvertedNumber	1188.cpp	/^	void getInvertedNumber(binaryIndexedTree *t){$/;"	f	class:record
+getMax	1111.c	/^int getMax(int cardsSum[], int value, int st){$/;"	f
+getNextStatus	1505.cpp	/^int getNextStatus(int status, int board[][8], int next[], int pt[]){$/;"	f
+getPermutation	2207.c	/^void getPermutation(char str[][5]){$/;"	f
+getPrimeList	1312.c	/^void getPrimeList(int primeMap[], int *primeList){$/;"	f
+getPrimeMap	1312.c	/^int getPrimeMap(int primeMap[]){$/;"	f
+getPrimeMap	2723.c	/^int getPrimeMap(int primeMap[], int primes[]){$/;"	f
+getPrimes	1133.c	/^int getPrimes(int primeMap[], int primeList[], int primeSumList[]){$/;"	f
+getRank	1111.c	/^int getRank(int cards[][4], int cardsSum[]){$/;"	f
+getRounded	2781.c	/^int getRounded(int n){$/;"	f
+getVowel	1713.c	/^int getVowel(char *p){$/;"	f
+idx	1117.cpp	/^	int count, level, idx;$/;"	m	struct:nodes	file:
+idx	2511.c	/^	int idx;$/;"	m	struct:shirt	file:
+initboard	1598.c	/^void initboard(int board[][10], int wkr, int wkc){$/;"	f
+insert	2876.c	/^int insert(struct Trie *buf, int *nodeNum, struct Trie *root, char *s){$/;"	f
+isCocaCola	2965.c	/^int isCocaCola(int n){$/;"	f
+isDaffodil	2736.c	/^int isDaffodil(char buf[], int cubic[]){$/;"	f
+isEqual	1601.c	/^int isEqual(double i, double j){$/;"	f
+isEqual	2109.c	/^int isEqual(double d1, double d2){$/;"	f
+isIn	1486.c	/^	int isIn;$/;"	m	struct:node	file:
+isLeaf	1117.cpp	/^	bool isLeaf;$/;"	m	struct:nodes	file:
+isLeap	2420.c	/^int isLeap(int year){$/;"	f
+isNumber	1717.c	/^int isNumber(char ch){$/;"	f
+isSmith	1133.c	/^int isSmith(int N, int primeList[], int primeSumList[], int nPrime){$/;"	f
+isZero	1136.cpp	/^	bool isZero;$/;"	m	struct:nums	file:
+key	1315.c	/^struct key{$/;"	s	file:
+lc	1117.cpp	/^	int lc, rc;$/;"	m	struct:nodes	file:
+length	1315.c	/^	int length;$/;"	m	struct:key	file:
+level	1117.cpp	/^	int count, level, idx;$/;"	m	struct:nodes	file:
+m	1315.c	/^	int m;$/;"	m	struct:excuse	file:
+main	1007.c	/^int main(){$/;"	f
+main	1008.c	/^int main(){$/;"	f
+main	1026.c	/^int main(){$/;"	f
+main	1027.c	/^int main(){$/;"	f
+main	1028.c	/^int main(){$/;"	f
+main	1045.c	/^int main(){$/;"	f
+main	1049.c	/^int main(){$/;"	f
+main	1095.cpp	/^int main(){$/;"	f
+main	1109.cpp	/^int main(){$/;"	f
+main	1111.c	/^int main(){$/;"	f
+main	1113.c	/^int main(){$/;"	f
+main	1115.c	/^int main(){$/;"	f
+main	1117.cpp	/^int main(){$/;"	f
+main	1133.c	/^int main(){$/;"	f
+main	1136.cpp	/^int main(){$/;"	f
+main	1151.c	/^int main(){$/;"	f
+main	1184.c	/^int main(){$/;"	f
+main	1188.cpp	/^int main(){$/;"	f
+main	1205.c	/^int main(){$/;"	f
+main	1240.c	/^int main(){$/;"	f
+main	1241.c	/^int main(){$/;"	f
+main	1251.c	/^int main(){$/;"	f
+main	1278.c	/^int main(){$/;"	f
+main	1284.c	/^int main(){$/;"	f
+main	1295.c	/^int main(){$/;"	f
+main	1307.c	/^int main(){$/;"	f
+main	1312.c	/^int main(){$/;"	f
+main	1314.c	/^int main(){$/;"	f
+main	1315.c	/^int main(){$/;"	f
+main	1334.c	/^int main(){$/;"	f
+main	1337.c	/^int main(){$/;"	f
+main	1342.c	/^int main(){$/;"	f
+main	1349.c	/^int main(){$/;"	f
+main	1350.c	/^int main(){$/;"	f
+main	1352.c	/^int main(){$/;"	f
+main	1353.c	/^int main(){$/;"	f
+main	1354.c	/^int main(){$/;"	f
+main	1362.c	/^int main(){$/;"	f
+main	1365.c	/^int main(){$/;"	f
+main	1382.c	/^int main(){$/;"	f
+main	1383.c	/^int main(){$/;"	f
+main	1392.c	/^int main(){$/;"	f
+main	1403.c	/^int main(){$/;"	f
+main	1408.c	/^int main(){$/;"	f
+main	1414.c	/^int main(){$/;"	f
+main	1425.c	/^int main(){$/;"	f
+main	1486.c	/^int main(){$/;"	f
+main	1503.c	/^int main(){$/;"	f
+main	1505.cpp	/^int main(){$/;"	f
+main	1520.c	/^int main(){$/;"	f
+main	1524.c	/^int main(){$/;"	f
+main	1543.c	/^int main(){$/;"	f
+main	1558.c	/^int main(){$/;"	f
+main	1563.c	/^int main(){$/;"	f
+main	1577.c	/^int main(){$/;"	f
+main	1598.c	/^int main(){$/;"	f
+main	1601.c	/^int main(){$/;"	f
+main	1657.c	/^int main(){$/;"	f
+main	1698.c	/^int main(){$/;"	f
+main	1712.c	/^int main(){$/;"	f
+main	1713.c	/^int main(){$/;"	f
+main	1716.c	/^int main(){$/;"	f
+main	1717.c	/^int main(){$/;"	f
+main	1720.c	/^int main(){$/;"	f
+main	1738.c	/^int main(){$/;"	f
+main	1745.c	/^int main(){$/;"	f
+main	1760.c	/^int main(){$/;"	f
+main	1763.c	/^int main(){$/;"	f
+main	1764.c	/^int main(){$/;"	f
+main	1792.cpp	/^int main(){$/;"	f
+main	1797.c	/^int main(){$/;"	f
+main	1883.c	/^int main(){$/;"	f
+main	1949.c	/^int main(){$/;"	f
+main	2001.c	/^int main(){$/;"	f
+main	2059.c	/^int main(){$/;"	f
+main	2060.c	/^int main(){$/;"	f
+main	2067.c	/^int main(){$/;"	f
+main	2095.c	/^int main(){$/;"	f
+main	2100.c	/^int main(){$/;"	f
+main	2104.cpp	/^int main(){$/;"	f
+main	2109.c	/^int main(){$/;"	f
+main	2136.c	/^int main(){$/;"	f
+main	2172.cpp	/^int main(){$/;"	f
+main	2176.c	/^int main(){$/;"	f
+main	2186.c	/^int main(){$/;"	f
+main	2201.c	/^int main(){$/;"	f
+main	2207.c	/^int main(){$/;"	f
+main	2229.c	/^int main(){$/;"	f
+main	2256.c	/^int main(){$/;"	f
+main	2321.c	/^int main(){$/;"	f
+main	2358.c	/^int main(){$/;"	f
+main	2376.c	/^int main(){$/;"	f
+main	2388.c	/^int main(){$/;"	f
+main	2397.c	/^int main(){$/;"	f
+main	2405.c	/^int main(){$/;"	f
+main	2417.c	/^int main(){$/;"	f
+main	2420.c	/^int main(){$/;"	f
+main	2433.c	/^int main(){$/;"	f
+main	2476.c	/^int main(){$/;"	f
+main	2478.c	/^int main(){$/;"	f
+main	2480.c	/^int main(){$/;"	f
+main	2481.c	/^int main(){$/;"	f
+main	2482.c	/^int main(){$/;"	f
+main	2488.c	/^int main(){$/;"	f
+main	2511.c	/^int main(){$/;"	f
+main	2514.c	/^int main(){$/;"	f
+main	2520.c	/^int main(){$/;"	f
+main	2548.c	/^int main(){$/;"	f
+main	2554.c	/^int main(){$/;"	f
+main	2645.c	/^int main(){$/;"	f
+main	2659.c	/^int main(){$/;"	f
+main	2679.c	/^int main(){$/;"	f
+main	2722.c	/^int main(){$/;"	f
+main	2723.c	/^int main(){$/;"	f
+main	2724.cpp	/^int main(){$/;"	f
+main	2727.c	/^int main(){$/;"	f
+main	2736.c	/^int main(){$/;"	f
+main	2744.c	/^int main(){$/;"	f
+main	2772.c	/^int main(){$/;"	f
+main	2773.c	/^int main(){$/;"	f
+main	2781.c	/^int main(){$/;"	f
+main	2795.c	/^int main(){$/;"	f
+main	2807.c	/^int main(){$/;"	f
+main	2812.c	/^int main(){$/;"	f
+main	2818.c	/^int main(){$/;"	f
+main	2829.c	/^int main(){$/;"	f
+main	2830.c	/^int main(){$/;"	f
+main	2835.c	/^int main(){$/;"	f
+main	2840.c	/^int main(){$/;"	f
+main	2850.c	/^int main(){$/;"	f
+main	2857.c	/^int main(){$/;"	f
+main	2876.c	/^int main(){$/;"	f
+main	2886.c	/^int main(){$/;"	f
+main	2932.c	/^int main(){$/;"	f
+main	2947.c	/^int main(){$/;"	f
+main	2965.c	/^int main(){$/;"	f
+main	2970.c	/^int main(){$/;"	f
+main	Z2876.java	/^	public static void main(String[] args){$/;"	m	class:Z2876
+match	1095.cpp	/^unsigned match(unsigned int tTree[]){$/;"	f
+match	1315.c	/^int match(char *str1, int st, int ed, char *str2){$/;"	f
+match	2397.c	/^int match(int a, int b){$/;"	f
+match	2840.c	/^int match(char *str, char *pattern){$/;"	f
+matchAll	1315.c	/^int matchAll(char *ex, struct key keys[], int K){$/;"	f
+max	1027.c	4;"	d	file:
+max	1425.c	4;"	d	file:
+max	1792.cpp	/^int max(int a, int b){$/;"	f
+max	2059.c	4;"	d	file:
+maxSize	1188.cpp	/^	int maxSize;$/;"	m	class:binaryIndexedTree	file:
+merge	1188.cpp	/^void merge(int **ra, int **rb, int st, int mid, int ed){$/;"	f
+mergeSort	1188.cpp	/^void mergeSort(int **idx1, int **idx2, int st, int ed){$/;"	f
+min	2067.c	4;"	d	file:
+multiply	1486.c	/^void multiply(struct bigNumber *a, struct bigNumber *b, struct bigNumber *c){$/;"	f
+nN	1486.c	/^	int nN;$/;"	m	struct:node	file:
+name	2727.c	/^	char name[85];$/;"	m	struct:record	file:
+nb	2100.c	/^struct nb{$/;"	s	file:
+neighbor	1486.c	/^	int neighbor[MAXN];$/;"	m	struct:node	file:
+nextPermutation	2207.c	/^void nextPermutation(char str[]){$/;"	f
+node	1486.c	/^struct node{$/;"	s	file:
+nodes	1117.cpp	/^struct nodes{$/;"	s	file:
+num	1486.c	/^	int num[MAXDIGIT];$/;"	m	struct:bigNumber	file:
+num	2876.c	/^	int num;$/;"	m	struct:Trie	file:
+nums	1136.cpp	/^struct nums{$/;"	s	file:
+operator <	1117.cpp	/^	bool operator < (const nodes &a) const{$/;"	f	struct:nodes
+operator <	2724.cpp	/^	bool operator < (const record &a) const{$/;"	f	struct:record
+price	2727.c	/^	int price;$/;"	m	struct:record	file:
+printCoef	1720.c	/^void printCoef(int coef[]){$/;"	f
+printIp	2645.c	/^void printIp(int ip[]){$/;"	f
+printRecord	2727.c	/^void printRecord(struct record *r){$/;"	f
+printResult	1241.c	/^void printResult(char ch, double rt, int count){$/;"	f
+priority	2724.cpp	/^	int priority;$/;"	m	struct:record	file:
+process	1598.c	/^int process(int board[][10], int wkr, int wkc, int wqr, int wqc, int bkr, int bkc){$/;"	f
+processCards	1111.c	/^char* processCards(int cards[][4], int cardsSum[], char *str, int hash[]){$/;"	f
+r	2100.c	/^	int r, c, rt;$/;"	m	struct:nb	file:
+rc	1117.cpp	/^	int lc, rc;$/;"	m	struct:nodes	file:
+read	1188.cpp	/^	int read(int x){$/;"	f	class:binaryIndexedTree
+readOne	1188.cpp	/^	int readOne(int x){$/;"	f	class:binaryIndexedTree
+record	1188.cpp	/^	record(){$/;"	f	class:record
+record	1188.cpp	/^class record{$/;"	c	file:
+record	2109.c	/^struct record{$/;"	s	file:
+record	2724.cpp	/^struct record{$/;"	s	file:
+record	2727.c	/^struct record{$/;"	s	file:
+remain	1136.cpp	/^	int remain;$/;"	m	struct:nums	file:
+resetStatus	2100.c	/^void resetStatus(int board[][7], int rt[][7], int nrt[], int N, int M, int r, int c){$/;"	f
+resetSum	2476.c	/^void resetSum(char sum[]){$/;"	f
+reverseAdd	2001.c	/^void reverseAdd(char *num1, char *num2, int l1, int l2, char *buf2){$/;"	f
+reverseNum	2001.c	/^void reverseNum(char *num, int l){$/;"	f
+reverseSum	2476.c	/^void reverseSum(char sum[], int l){$/;"	f
+rt	2100.c	/^	int r, c, rt;$/;"	m	struct:nb	file:
+s	1136.cpp	/^	string s;$/;"	m	struct:nums	file:
+setNum	1486.c	/^void setNum(struct bigNumber *a, int n){$/;"	f
+setStatus	2100.c	/^int setStatus(int board[][7], int rt[][7], int nrt[], int N, int M, int r, int c, struct nb nbs[]){$/;"	f
+setqueen	1598.c	/^void setqueen(int board[][10], int qr, int qc, int wkr, int wkc){$/;"	f
+shirt	2511.c	/^struct shirt{$/;"	s	file:
+solve	1354.c	/^int solve(int *s, int *f, int i, int j){$/;"	f
+solve	1403.c	/^int solve(int *ans, int N, int nums[][6], int *selected, int i, int p, int len){$/;"	f
+solve	1408.c	/^int solve(long long M, char *buf, long long *pMin, long long *pMax, int *ans, int p, int len){$/;"	f
+str	1188.cpp	/^	char *str;$/;"	m	class:record	file:
+str	1315.c	/^	char str[22];$/;"	m	struct:key	file:
+str	1315.c	/^	char str[75];$/;"	m	struct:excuse	file:
+strToIp	2645.c	/^void strToIp(char buf[], int ip[]){$/;"	f
+sum	2511.c	/^	double sum;$/;"	m	struct:shirt	file:
+terminal	2876.c	/^	int terminal;$/;"	m	struct:Trie	file:
+tmp1	1717.c	/^char tmp1[150], tmp2[150];$/;"	v
+tmp2	1717.c	/^char tmp1[150], tmp2[150];$/;"	v
+toLowerCase	1315.c	/^void toLowerCase(char *s){$/;"	f
+traceBack	1717.c	/^int traceBack(char buf[][75], int prev[][75], int l[][75], int r, int c){$/;"	f
+update	1188.cpp	/^	void update(int x, int value){$/;"	f	class:binaryIndexedTree
+updateIp	2645.c	/^void updateIp(int ip[], int prefix[], int mask[]){$/;"	f
+v	1188.cpp	/^	int v;$/;"	m	class:record	file:
+v	2109.c	/^	double v;$/;"	m	struct:record	file:
+visited	1486.c	/^	int visited;$/;"	m	struct:node	file:
+year	2727.c	/^	int year;$/;"	m	struct:record	file:
+~binaryIndexedTree	1188.cpp	/^	~binaryIndexedTree(){$/;"	f	class:binaryIndexedTree
+~record	1188.cpp	/^	~record(){$/;"	f	class:record
